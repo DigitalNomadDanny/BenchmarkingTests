@@ -28,4 +28,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Run
-      run: dotnet run --framework "net5.0"
+      run: dotnet run --framework "net5.0" --project "BenchmarkingTests"
