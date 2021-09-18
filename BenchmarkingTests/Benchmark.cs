@@ -13,7 +13,7 @@ namespace BenchmarkingTests
     [SimpleJob(RuntimeMoniker.Net50)]
     public class LongListBenchMark
     {
-        [Params(100, 10000, 1000000)]
+        [Params(1000000)]
         public int IterationCount;
         private IList<int> LongList { get; set; }
 
