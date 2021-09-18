@@ -9,8 +9,8 @@ namespace BenchmarkingTests
 {
     [MemoryDiagnoser]
     [SimpleJob(RuntimeMoniker.Net48)]
-    [SimpleJob(RuntimeMoniker.Net60)]
     [SimpleJob(RuntimeMoniker.Net50)]
+    [SimpleJob(RuntimeMoniker.Net60)] 
     public class LongListBenchMark
     {
         [Params(1000000)]
